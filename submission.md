@@ -58,7 +58,7 @@ Demonstrate your workflow mechanics by embedding your screenshots below.
 > **CRITICAL FOR WORKING IMAGES:** Do not type manual folder paths. Edit this file directly on the GitHub web interface, click on the blank line below each prompt, and **paste (Ctrl+V / Cmd+V)** your screenshot. GitHub will automatically upload the file and generate a permanent, working image link for you.
 
 ### A. Milestones and Issues
-*Provide a screenshot showing your active milestone(s) and the granular tracking issues linked directly to them.*
+
 
 <img width="1881" height="801" alt="image" src="https://github.com/user-attachments/assets/2f935a10-ba56-489c-8862-52e1f6419c9b" />
 
@@ -66,9 +66,10 @@ Demonstrate your workflow mechanics by embedding your screenshots below.
 * **Caption:** This screenshot shows a project milestone and the development issues assigned to each milestone.
 
 ### B. Project Board
-*Provide a screenshot of your GitHub Project Board with your issues organized dynamically across columns (To Do, In Progress, Done).*
 
-<img width="1881" height="801" alt="image" src="https://github.com/user-attachments/assets/3f2f88c2-1c63-45c6-a5b9-77cf32d23f99" />
+
+<img width="1911" height="847" alt="image" src="https://github.com/user-attachments/assets/d8fecf1e-62b2-4cee-9492-80fade6a8cab" />
+
 
 
 * **Caption:** This screenshot shows the project Kanban board with tasks organized across To Do, In Progress, and Done.
