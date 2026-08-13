@@ -60,16 +60,18 @@ Demonstrate your workflow mechanics by embedding your screenshots below.
 ### A. Milestones and Issues
 *Provide a screenshot showing your active milestone(s) and the granular tracking issues linked directly to them.*
 
-[PASTE YOUR MILESTONE SCREENSHOT DIRECTLY HERE]
+<img width="1881" height="801" alt="image" src="https://github.com/user-attachments/assets/2f935a10-ba56-489c-8862-52e1f6419c9b" />
 
-* **Caption:** [Write a brief sentence describing your milestones here]
+
+* **Caption:** This screenshot shows a project milestone and the development issues assigned to each milestone.
 
 ### B. Project Board
 *Provide a screenshot of your GitHub Project Board with your issues organized dynamically across columns (To Do, In Progress, Done).*
 
-[PASTE YOUR PROJECT BOARD SCREENSHOT DIRECTLY HERE]
+<img width="1881" height="801" alt="image" src="https://github.com/user-attachments/assets/3f2f88c2-1c63-45c6-a5b9-77cf32d23f99" />
 
-* **Caption:** [Write a brief sentence describing your board state here]
+
+* **Caption:** This screenshot shows the project Kanban board with tasks organized across To Do, In Progress, and Done.
 
 ### C. Branching Architecture
 *Provide a screenshot showing your local or remote Git branch list, highlighting your use of conventional, issue-linked naming patterns (e.g., `feat/`, `fix/`, `style/`).*
