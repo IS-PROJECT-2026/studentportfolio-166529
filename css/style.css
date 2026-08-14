@@ -210,11 +210,46 @@
     font-weight: 600;
 }
 
+.project-filters {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+    transform: translateY(-2px);
+}
+
+.filter-btn.active {
+    font-weight: 600;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
 
     .projects-grid {
         grid-template-columns: 1fr;
     }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-filters {
+        gap: 8px;
+    }
+
 
 }

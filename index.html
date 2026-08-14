@@ -193,10 +193,35 @@
             everyday problems.
         </p>
 
+
+        <!-- Project Filters -->
+        <div class="project-filters">
+
+            <button class="filter-btn active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-filter="web">
+                Web
+            </button>
+
+            <button class="filter-btn" data-filter="desktop">
+                Desktop
+            </button>
+
+            <button class="filter-btn" data-filter="api">
+                API
+            </button>
+
+        </div>
+
+
+        <!-- Projects -->
         <div class="projects-grid">
 
+
             <!-- Project 1 -->
-            <article class="project-card">
+            <article class="project-card" data-category="web">
 
                 <div class="project-content">
 
@@ -220,8 +245,9 @@
 
             </article>
 
+
             <!-- Project 2 -->
-            <article class="project-card">
+            <article class="project-card" data-category="desktop">
 
                 <div class="project-content">
 
@@ -244,18 +270,18 @@
 
             </article>
 
+
             <!-- Project 3 -->
-            <article class="project-card">
+            <article class="project-card" data-category="api">
 
                 <div class="project-content">
 
                     <h3>Interactive Weather Dashboard</h3>
 
                     <p>
-                        A weather dashboard that retrieves real-time weather
-                        information using an API and presents forecasts,
-                        temperature and humidity through an interactive user
-                        interface.
+                        A weather dashboard that retrieves weather information
+                        using an API and presents temperature, humidity and
+                        forecast information through an interactive interface.
                     </p>
 
                     <div class="project-technologies">
@@ -267,6 +293,7 @@
                 </div>
 
             </article>
+
 
         </div>
 
