@@ -84,9 +84,12 @@ Demonstrate your workflow mechanics by embedding your screenshots below.
 ### D. Pull Requests & Traceability
 *Provide a screenshot of a completed or open Pull Request (PR) on GitHub that clearly shows it is linked to a related development issue.*
 
-[PASTE YOUR PULL REQUEST SCREENSHOT DIRECTLY HERE]
+<img width="1901" height="938" alt="image" src="https://github.com/user-attachments/assets/892542e3-fcbb-4d41-ac54-6e952bf0a36a" />
+<img width="522" height="630" alt="image" src="https://github.com/user-attachments/assets/18565ca5-3f3a-4019-a091-76d3daca9ffa" />
 
-* **Caption:** [Write a brief sentence describing your PR and what issue it closes]
+
+
+* **Caption:** This pull request implements JavaScript interactions for the platform, including project filtering, mobile navigation, and contact form feedback, and closes Issue #9.
 
 ---
 
