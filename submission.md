@@ -58,18 +58,21 @@ Demonstrate your workflow mechanics by embedding your screenshots below.
 > **CRITICAL FOR WORKING IMAGES:** Do not type manual folder paths. Edit this file directly on the GitHub web interface, click on the blank line below each prompt, and **paste (Ctrl+V / Cmd+V)** your screenshot. GitHub will automatically upload the file and generate a permanent, working image link for you.
 
 ### A. Milestones and Issues
-*Provide a screenshot showing your active milestone(s) and the granular tracking issues linked directly to them.*
 
-[PASTE YOUR MILESTONE SCREENSHOT DIRECTLY HERE]
 
-* **Caption:** [Write a brief sentence describing your milestones here]
+<img width="1881" height="801" alt="image" src="https://github.com/user-attachments/assets/2f935a10-ba56-489c-8862-52e1f6419c9b" />
+
+
+* **Caption:** This screenshot shows a project milestone and the development issues assigned to each milestone.
 
 ### B. Project Board
-*Provide a screenshot of your GitHub Project Board with your issues organized dynamically across columns (To Do, In Progress, Done).*
 
-[PASTE YOUR PROJECT BOARD SCREENSHOT DIRECTLY HERE]
 
-* **Caption:** [Write a brief sentence describing your board state here]
+<img width="1911" height="847" alt="image" src="https://github.com/user-attachments/assets/d8fecf1e-62b2-4cee-9492-80fade6a8cab" />
+
+
+
+* **Caption:** This screenshot shows the project Kanban board with tasks organized across To Do, In Progress, and Done.
 
 ### C. Branching Architecture
 *Provide a screenshot showing your local or remote Git branch list, highlighting your use of conventional, issue-linked naming patterns (e.g., `feat/`, `fix/`, `style/`).*
@@ -81,9 +84,12 @@ Demonstrate your workflow mechanics by embedding your screenshots below.
 ### D. Pull Requests & Traceability
 *Provide a screenshot of a completed or open Pull Request (PR) on GitHub that clearly shows it is linked to a related development issue.*
 
-[PASTE YOUR PULL REQUEST SCREENSHOT DIRECTLY HERE]
+<img width="1901" height="938" alt="image" src="https://github.com/user-attachments/assets/892542e3-fcbb-4d41-ac54-6e952bf0a36a" />
+<img width="522" height="630" alt="image" src="https://github.com/user-attachments/assets/18565ca5-3f3a-4019-a091-76d3daca9ffa" />
 
-* **Caption:** [Write a brief sentence describing your PR and what issue it closes]
+
+
+* **Caption:** This pull request implements JavaScript interactions for the platform, including project filtering, mobile navigation, and contact form feedback, and closes Issue #9.
 
 ---
 
