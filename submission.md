@@ -101,52 +101,55 @@ You must engineer **three merge conflicts**, each triggered by a **different cau
 
 ### Conflict 1 — Full Chronology
 
-**What cause did you use?** [Name the type of conflict cause from the lecture]
+**What cause did you use?** Same-line modification conflict
 
 #### Step 1: Generating the Clash
 *Screenshot showing the merge attempt and the conflict warning.*
 
-[PASTE SCREENSHOT OF ATTEMPTED MERGE / TERMINAL WARNING HERE]
+<img width="893" height="430" alt="image" src="https://github.com/user-attachments/assets/45f0f484-b033-4716-9341-70c2cce68f77" />
 
-* **Caption:** [Describe which two branches collided and the warning received]
+* **Caption:** GitHub detected a merge conflict between feat/15-conflict-same-line and feat/15-conflict-same-line-b because both branches modified the same line in index.html differently. The pull request could not be merged automatically and required manual conflict resolution.
 
 #### Step 2: Inside the Code Editor (Conflict Markers)
 *Screenshot showing the raw, unresolved conflict markers (`<<<<<<< HEAD`, `=======`, `>>>>>>>`) in your editor.*
 
-[PASTE SCREENSHOT OF RAW CONFLICT MARKERS HERE]
+<img width="893" height="194" alt="image" src="https://github.com/user-attachments/assets/0a9ec4e3-b32c-4203-aa97-73c9266960b7" />
 
-* **Caption:** [Explain what caused the dispute and your reasoning for the final version]
+* **Caption:** The conflict markers show the two incompatible versions of the same line. I reviewed both changes and selected a final version that preserved the intended portfolio heading before marking the conflict as resolved.]
 
 #### Step 3: Resolution & Clean Merge
 *Screenshot of your clean Git history or completed PR showing the conflict was resolved and merged.*
 
-[PASTE SCREENSHOT OF CLEAN RESOLUTION HERE]
+<img width="892" height="437" alt="image" src="https://github.com/user-attachments/assets/13809de5-428f-429b-bc2d-e5167b75d144" />
 
-* **Caption:** [Describe the final state after resolution]
+
+* **Caption:** After removing the conflict markers and committing the resolution, GitHub confirmed that the branches were no longer in conflict. The pull request was then merged successfully.
 
 ---
 
 ### Conflict 2 — Different Cause
 
-**What cause did you use?** [Name the type of conflict cause — must be different from Conflict 1]
+**What cause did you use?** Modify/delete conflict.
 
-**Why does this cause trigger a conflict?** [1–2 sentences explaining the mechanism]
+**Why does this cause trigger a conflict?** This conflict occurs when one branch deletes a file while another branch modifies the same file. Git cannot automatically determine whether to keep the modified file or honour the deletion, so manual resolution is required.
 
-[PASTE SCREENSHOT OF CONFLICT MARKERS FOR CONFLICT 2 HERE]
+<img width="895" height="463" alt="image" src="https://github.com/user-attachments/assets/59c37f2d-0211-4c4c-beea-59a98607b95a" />
 
-* **Caption:** [Brief description of the conflicting branches and file]
+
+* **Caption:** GitHub detected a modify/delete conflict because feat/16-conflict-delete deleted js/script.js, while feat/16-conflict-modify modified the same file. GitHub therefore prevented the pull request from being merged automatically and required manual resolution
 
 ---
 
 ### Conflict 3 — Different Cause
 
-**What cause did you use?** [Name the type of conflict cause — must be different from Conflicts 1 and 2]
+**What cause did you use?** Rename/Modify Conflict
 
-**Why does this cause trigger a conflict?** [1–2 sentences explaining the mechanism]
+**Why does this cause trigger a conflict?** This conflict occurs when one branch renames a file while another branch modifies the original file. Git cannot automatically reconcile the renamed path with the changes made to the original file, so manual resolution is required.
 
-[PASTE SCREENSHOT OF CONFLICT MARKERS FOR CONFLICT 3 HERE]
+<img width="894" height="463" alt="image" src="https://github.com/user-attachments/assets/e32c73da-ca97-4ceb-aa92-52c193b391f3" />
 
-* **Caption:** [Brief description of the conflicting branches and file]
+
+* **Caption:** This conflict occurred because feat/16-conflict-rename renamed the CSS file while feat/16-conflict-modify modified the original file. GitHub could not automatically reconcile the renamed path with the changes made to the original file, so the pull request required manual resolution.
 
 ---
 ##
