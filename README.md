@@ -37,9 +37,11 @@ The main goal of the project is to demonstrate how the skills I have developed t
 - Git
 - GitHub
 
-### Deployment
+## Live Demo and Deployment
 
-- GitHub Pages
+The portfolio is deployed using GitHub Pages:
+
+**[View My Live Portfolio](https://is-project-2026.github.io/studentportfolio-166529/)**
 
 ## Project Structure
 
@@ -58,5 +60,3 @@ studentportfolio/
 │
 ├── images/
     └── profile and project images
-
-**[View My Live Portfolio](https://is-project-2026.github.io/studentportfolio-166529/)**
