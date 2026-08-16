@@ -10,8 +10,7 @@
 
 ## 2. Deployed Project Link
 
-- **Live GitHub Pages URL:** [Paste your live deployment link here]
-  *(Example: https://is-project-2026.github.io/hospital-management-138141/)*
+- **Live GitHub Pages URL:** [https://is-project-2026.github.io/studentportfolio-166529/]
 
 ---
 
@@ -25,29 +24,29 @@
 
 Paste the URL of the commit in your history that you think best demonstrates clean conventional commit practice (good type tag, clear subject, meaningful body or footer).
 
-- **Commit URL:** [Paste the full GitHub commit URL here]
-- **Why this one?** [1–2 sentences explaining what makes this commit well-structured]
+- **Commit URL:** https://github.com/IS-PROJECT-2026/studentportfolio-166529/commit/b6391df (fix: improve responsive portfolio layout)
+- **Why this one?** This commit demonstrates clean Conventional Commit practice because it uses the fix type and a concise, descriptive subject. It clearly communicates that the change addresses a responsive layout problem without making the commit message unnecessarily long.
 
 ### B. A Mistake or Struggle
 
 Link to a commit, PR, or issue where something went wrong — a bad commit message you had to fix, a branch you had to delete and recreate, a PR that needed rework, or a deployment that broke. 
 
-- **Link to the evidence:** [Paste URL here]
-- **What happened and how did you recover?** [2–3 sentences]
+- **Link to the evidence:** https://github.com/IS-PROJECT-2026/studentportfolio-166529/pull/26
+- **What happened and how did you recover?** During the development of the initial project structure, I realised that the work needed to be reorganised and tracked more clearly through the GitHub issue and pull request workflow. I corrected this by restructuring the work on a separate feature branch, reviewing the changes through a pull request, and merging the corrected implementation into main. This experience reinforced the importance of defining tasks clearly before starting development and using pull requests to review changes before merging.
 
 ### C. A Pull Request You're Proud Of
 
 Paste the URL of the PR that best shows your self-review process — one where the description is clear, the issue linkage is correct, and the diff tells a coherent story.
 
-- **PR URL:** [Paste the full GitHub PR URL here]
-- **What did you check before merging?** [1–2 sentences on what you reviewed]
+- **PR URL:** https://github.com/IS-PROJECT-2026/studentportfolio-166529/pull/25
+- **What did you check before merging?** Before merging, I reviewed the PR description, verified that the changes were linked to the relevant issue, and inspected the changed files to ensure that the JavaScript interactions worked as intended. I also checked that the diff was focused on the requested functionality before merging the PR.
 
 ### D. One Thing You Would Do Differently
 
 If you had to restart this project from scratch with everything you know now, name one specific workflow decision you would change (not a code change — a Git/project management decision).
 
-- **What would you change?** [1–2 sentences]
-- **Link to the evidence of the original decision:** [Paste URL to the commit, branch, or issue that shows the decision you'd redo]
+- **What would you change?** If I were to restart the project, I would break down the initial project setup into smaller, more clearly defined issues before creating the development branches. This would make the work easier to track, reduce overlap between tasks, and make the Git history more organised from the beginning.
+- **Link to the evidence of the original decision:** https://github.com/IS-PROJECT-2026/studentportfolio-166529/pull/26
 
 ---
 
@@ -75,14 +74,12 @@ Demonstrate your workflow mechanics by embedding your screenshots below.
 * **Caption:** This screenshot shows the project Kanban board with tasks organized across To Do, In Progress, and Done.
 
 ### C. Branching Architecture
-*Provide a screenshot showing your local or remote Git branch list, highlighting your use of conventional, issue-linked naming patterns (e.g., `feat/`, `fix/`, `style/`).*
 
 [PASTE YOUR BRANCHING SCREENSHOT DIRECTLY HERE]
 
-* **Caption:** [Write a brief sentence describing your branch list here]
+* **Caption:** This screenshot demonstrates the project's branching architecture, with development work isolated on issue-linked feature, style, fix, and documentation branches rather than being committed directly to main.
 
 ### D. Pull Requests & Traceability
-*Provide a screenshot of a completed or open Pull Request (PR) on GitHub that clearly shows it is linked to a related development issue.*
 
 <img width="1901" height="938" alt="image" src="https://github.com/user-attachments/assets/892542e3-fcbb-4d41-ac54-6e952bf0a36a" />
 <img width="522" height="630" alt="image" src="https://github.com/user-attachments/assets/18565ca5-3f3a-4019-a091-76d3daca9ffa" />
