@@ -75,7 +75,8 @@ Demonstrate your workflow mechanics by embedding your screenshots below.
 
 ### C. Branching Architecture
 
-[PASTE YOUR BRANCHING SCREENSHOT DIRECTLY HERE]
+<img width="1866" height="914" alt="image" src="https://github.com/user-attachments/assets/fddc00b8-db1c-4c5a-a1d6-ea7eeb55153d" />
+
 
 * **Caption:** This screenshot demonstrates the project's branching architecture, with development work isolated on issue-linked feature, style, fix, and documentation branches rather than being committed directly to main.
 
