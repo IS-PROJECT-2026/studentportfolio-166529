@@ -43,6 +43,18 @@ The portfolio is deployed using GitHub Pages:
 
 **[View My Live Portfolio](https://is-project-2026.github.io/studentportfolio-166529/)**
 
+## Getting Started
+1. Clone the repository
+git clone https://github.com/IS-PROJECT-2026/studentportfolio-166529.git
+2. Open the project
+Navigate into the project folder:
+cd Studentportfolio-166529
+3. Run the application
+
+## License
+This project was developed for academic purposes as part of the IS-PROJECT-2026 project.
+
+
 ## Project Structure
 
 ```text
