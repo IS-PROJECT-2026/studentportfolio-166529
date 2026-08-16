@@ -1,8 +1,8 @@
 console.log("Student portfolio loaded successfully.");
 
-// ================================
+
 // PROJECT FILTERING
-// ================================
+
 
 const filterButtons = document.querySelectorAll(".filter-btn");
 const projectCards = document.querySelectorAll(".project-card");
@@ -42,9 +42,9 @@ filterButtons.forEach(button => {
 
 });
 
-// ================================
+
 // MOBILE NAVIGATION
-// ================================
+
 
 const menuToggle = document.querySelector(".menu-toggle");
 const mainNav = document.querySelector("#main-nav");
@@ -59,9 +59,9 @@ if (menuToggle && mainNav) {
 
 }
 
-// ================================
+
 // CONTACT FORM
-// ================================
+
 
 const contactForm = document.querySelector("#contact-form");
 const formMessage = document.querySelector("#form-message");
